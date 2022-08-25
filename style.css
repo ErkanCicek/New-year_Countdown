@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /*font color*/
+    color: antiquewhite;
+}
+
+body{
+    background-image: url("tree.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.title{
+    word-wrap: break-word;
+    font-size: 45px;
+    margin-top: 20vh;
+    text-align: center;
+    padding-bottom: 50px;  
+    margin-right: 70px; 
+}
+
+.data-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: 50px;
+    margin-right: 160px;
+}
+
+.data-container > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.data-container > div{
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.data-container .data-days #day{
+    margin-right: 10px;
+}
+
+.data-container .data-days{
+    margin-right: 20px;
+}
+
+.data-container .data-hours #hour{
+    margin-right: 10px;
+}
+
+.data-container .data-hours{
+    margin-right: 20px;
+}
+
+.data-container .data-minutes #minute{
+    margin-right: 10px;
+}
+
+.data-container .data-minutes{
+    margin-right: 20px;
+}
+
+.data-container > div > h2[target=noFont]{
+    font-style: italic;
+    font-weight: normal
+}
